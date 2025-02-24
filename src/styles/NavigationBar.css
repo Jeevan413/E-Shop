@@ -1,0 +1,32 @@
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Fix alignment */
+}
+
+
+.nav-link {
+  color: rgb(251, 249, 249) !important; /* Ensure navbar links are visible */
+  font-weight: bold;
+  
+  
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(248, 246, 246);
+  padding: 10px 20px;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    display: none; /* Initially hidden */
+  }
+  .navbar-collapse.show {
+    display: flex !important; /* Shows when toggled */
+    flex-direction: column; /* Stacks items vertically */
+  }
+}
+
