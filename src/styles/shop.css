@@ -81,6 +81,9 @@
         width: 90%; /* Adjust width to look good on small screens */
         max-width: 300px; /* Prevents it from becoming too wide */
     }
+    .shop-title {
+      font-size: 2rem; /* Adjust as needed */
+    }
 }
 .alert-message {
   position: fixed;
